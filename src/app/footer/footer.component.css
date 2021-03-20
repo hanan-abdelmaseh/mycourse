@@ -1,0 +1,45 @@
+footer {
+    color: #fff;
+}
+
+.footer-bg {
+    background: #4255A4
+}
+
+p {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+span {
+    color: #BF2B89;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #BF2B89;
+}
+
+h5:hover {
+    color: #BF2B89;
+}

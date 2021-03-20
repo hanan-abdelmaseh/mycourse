@@ -1,0 +1,29 @@
+.homeContent p {
+    font-size: 18px;
+    color: #9c9c9c;
+}
+
+.home {
+    background-image: linear-gradient(to left, rgb(50, 34, 83), #BF2B89);
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.homeImg img {
+    width: 100%;
+}
+
+.btnBg {
+    background-color: #a134cf !important;
+    padding: 8px 35px !important;
+    border-radius: 0.9rem !important;
+    color: #ffffff !important;
+}
+
+.btnBg:hover {
+    background-color: #BF2B89 !important;
+}

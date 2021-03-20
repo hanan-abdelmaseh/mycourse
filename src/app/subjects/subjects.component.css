@@ -1,0 +1,51 @@
+.btnBg {
+    background-color: #a134cf !important;
+    padding: 8px 35px !important;
+    border-radius: 0.9rem !important;
+    color: #ffffff !important;
+}
+
+.btnBg:hover {
+    background-color: #BF2B89 !important;
+}
+
+p {
+    color: #6E7697
+}
+
+.topicItem img {
+    width: 100%;
+    border-radius: 0.9rem;
+}
+
+.topicContent {
+    width: 100%;
+    border-radius: 0.9rem;
+}
+
+.topicContentItem {
+    position: absolute;
+    top: 53%;
+    transform: translateY(-47%);
+    left: 0;
+    width: 100%;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+}
+
+.topicContentItem a {
+    text-decoration: none;
+    color: #BF2B89;
+}
+
+.topics:hover .topicContentItem h4 a {
+    cursor: pointer;
+    color: #000000;
+    font-size: 28px;
+    transition: 0.4s;
+}
+
+h1 {
+    color: #6C62A4;
+}

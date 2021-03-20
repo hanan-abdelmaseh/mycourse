@@ -1,0 +1,17 @@
+p {
+    font-size: 14px;
+    color: #a134cf;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #6C62A4
+}
+
+.featureItems {
+    background-color: #f3f3f3;
+    border-radius: 0.9rem;
+}

@@ -1,0 +1,33 @@
+.card {
+    border-radius: 0.9rem;
+}
+
+h1 {
+    color: #6C62A4
+}
+
+.card img {
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+}
+
+.btnBg {
+    background-color: #a134cf !important;
+    padding: 8px 35px !important;
+    border-radius: 0.9rem !important;
+    color: #ffffff !important;
+}
+
+.btnBg:hover {
+    background-color: #BF2B89 !important;
+}
+
+.card-body h5 {
+    color: #6C62A4;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    color: #6E7697
+}

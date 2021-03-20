@@ -1,0 +1,29 @@
+.right-content img {
+    width: 100%;
+    border-radius: 0.9rem;
+}
+
+h1 {
+    color: #6C62A4;
+    font-size: 35px;
+    display: block;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.btnBg {
+    background-color: #a134cf !important;
+    padding: 8px 35px !important;
+    border-radius: 0.9rem !important;
+    color: #ffffff !important;
+}
+
+.btnBg:hover {
+    background-color: #BF2B89 !important;
+}
+
+p {
+    color: #6E7697;
+    font-size: 16px;
+    line-height: 30px;
+}

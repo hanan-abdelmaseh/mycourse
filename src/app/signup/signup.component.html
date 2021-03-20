@@ -1,0 +1,45 @@
+<section class="main mt-5">
+    <div class="container">
+        <div class="row ml-3">
+            <div class="col-md-6 pt-5">
+                <img src="../../assets/img/desktop-mobile-isometric.png">
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h1>Sign Up</h1>
+                <div class="signBorder"></div>
+                <form [formGroup]="signUpForm">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input formControlName="firstName" type="text" class="form-control" id="firstName">
+                        <span *ngIf="firstName.touched && firstName.invalid">please enter valid name </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input formControlName="lastName" type="text" class="form-control" id="lastName">
+                        <span *ngIf="lastName.touched && lastName.invalid">please enter valid name </span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input formControlName="email" type="email" class="form-control" id="email1">
+                        <span class="mr-3" *ngIf="email.touched && email.invalid ">enter valid email</span>
+                        <span *ngIf=" email.touched &&email.errors.pattern"> pattern wrong</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password </label>
+                        <input formControlName="password" type="password" class="form-control" id="password">
+                        <span *ngIf=" passowrd.touched && passowrd.invalid">please enter password</span>
+                    </div>
+                    <div class="form-group form-check">
+                        <input required type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I agree to the<span> Terms of User</span></label>
+                    </div>
+                    <button type="submit" class="btn signBtn">Sign Up</button>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>

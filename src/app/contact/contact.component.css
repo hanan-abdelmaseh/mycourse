@@ -1,0 +1,14 @@
+h3 {
+    color: #6C62A4;
+}
+
+.btnBg {
+    background-color: #a134cf !important;
+    padding: 8px 40px !important;
+    border-radius: 0.9rem !important;
+    color: #ffffff !important;
+}
+
+.btnBg:hover {
+    background-color: #BF2B89 !important;
+}
